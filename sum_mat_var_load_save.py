@@ -2,7 +2,6 @@
 #NOTE : Mention the names to variables. Otherwise TF can load wrong values if shape matches
 import tensorflow as tf
 import numpy as np
-import os
 ckpt_file = "./x.ckpt"
 graph =tf.Graph()
 x_s = np.array([[2,2],[2,2]],np.float32)
